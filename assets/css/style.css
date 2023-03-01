@@ -50,6 +50,10 @@
     height: 30px;
 }
 
+.fa-bell{
+    color: var(--bd-bell);
+}
+
 
 
 
