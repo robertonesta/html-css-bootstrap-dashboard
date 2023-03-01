@@ -2,13 +2,17 @@
     --bd-banner: #1b72e8;
     --bd-badge-bg: #165bba;
     --bd-bell: #ff8f00;
+    --bd-searchbar-bg: #e5e5e5;
 }
 
 #app_header{
     height: 50px;
     border: 1px dashed black;
 }
+#app_header .search{
+    background-color: #e5e5e5;
 
+}
 #app_main{
     height: calc(100vh - 50px);
     display: flex;
