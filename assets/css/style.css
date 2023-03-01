@@ -1,11 +1,12 @@
 :root{
     --bd-banner: #1b72e8;
+    --bd-badge-bg: #165bba;
+    --bd-bell: #ff8f00;
 }
 
 #app_header{
     height: 50px;
     border: 1px dashed black;
-    background-color: palevioletred;
 }
 
 #app_main{
@@ -33,7 +34,12 @@
 }
 
 .banner{
-    height: 100px;
     background-color: var(--bd-banner);
 }
+
+.badge{
+    background-color: var(--bd-badge-bg);
+}
+
+
 
