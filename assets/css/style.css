@@ -41,10 +41,12 @@
     background-color: var(--bd-badge-bg);
 }
 
-.banner .btn{
+.banner .outside_button{
     width: 30px;
     height: 30px;
 }
+
+
 
 
 
