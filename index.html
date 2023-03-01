@@ -14,20 +14,39 @@
         
     </header>
     <main id="app_main">
-        <div class="sidebar">
-            <div class="sidebar_top">
-                
-            </div>
-            <div class="sidebar_bottom justify-content-center">
-
-
+        <div class="sidebar d-flex justify-content-center">
+            <div class="navbar-dark flex-column justify-content-between d-flex align-items-center ">
+                <div class="sidebar_top">
+                    <form class="d-flex flex-column p-1">
+                        <button class="btn text-dark p-1" type="button">
+                            <i class="fa-solid fa-house p-1"></i>
+                            <span class="d-none d-lg-inline ">Home</span>
+                        </button>
+                        <button class="btn text-dark p-1" type="button">
+                            <i class="fa-solid fa-chart-simple p-1"></i>
+                            <span class="d-none d-lg-inline p-1">Stats</span>
+                        </button>
+                        <button class="btn text-dark p-1" type="button">
+                            <i class="fa-solid fa-signal p-1"></i>
+                            <span class="d-none d-lg-inline p-1">Signals</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="sidebar_bottom">
+                    <form class="d-flex flex-column p-2">
+                        <button class="btn text-dark p-2" type="button">
+                            <i class="fa-solid fa-gear p-2"></i>
+                            <span class="d-none d-lg-inline p-1 text-dark">Admin</span>
+                        </button>
+                    </form>
+                </div>               
             </div>
         </div>
         <div class="content">
             <div class="banner text-white">
                 <div class="container mw-100">
                     <div class="row justify-content-between py-3">
-                        <div class="col-12 col-md-4 order-2 order-md-1">
+                        <div class="col-12 col-md-5 order-2 order-md-1">
                             <div class="row">
                                 <div class="col-12">
                                     <h3 class="d-inline">Boolean</h3>
