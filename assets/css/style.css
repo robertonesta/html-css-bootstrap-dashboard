@@ -2,11 +2,13 @@
     --bd-banner: #1b72e8;
     --bd-badge-bg: #165bba;
     --bd-bell: #ff8f00;
+    --bd-sidebarbg: #051e34;
 }
 
 #app_header{
     height: 54px;
 }
+
 #app_header .search{
     background-color: #e5e5e5;
 
@@ -19,7 +21,7 @@
 .sidebar{
     overflow-y: hidden;
     background-image: url(../img/sidebar-bg.png);
-    background-color: #051e34;
+    background-color: var(--bd-sidebarbg);
     background-size: 100%;
 }
 
@@ -55,9 +57,17 @@
     color: var(--bd-bell);
 }
 
+/* effects */ 
+
+.sidebar button:hover{
+    filter: brightness(1);
+    background-color: #596976 ;
+}
+
+
 @media screen and (min-width:992px) {
 
     .offcanvas{
-        width: 50%; !important
-    }
+        width: 50%;
+}
 }
