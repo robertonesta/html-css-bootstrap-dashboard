@@ -19,7 +19,7 @@
 .sidebar{
     overflow-y: hidden;
     background-image: url(../img/sidebar-bg.png);
-    background-color: black;
+    background-color: #051e34;
     background-size: 100%;
 }
 
@@ -53,4 +53,11 @@
 
 .fa-bell{
     color: var(--bd-bell);
+}
+
+@media screen and (min-width:992px) {
+
+    .offcanvas{
+        width: 50%; !important
+    }
 }
