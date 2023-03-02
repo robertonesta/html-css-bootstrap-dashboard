@@ -11,22 +11,23 @@
 </head>
 <body>
     <header id="app_header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col flex-grow-0">
+                    <img class="d-xl-none" width="40" src="./assets/img/mobile-logo.png" alt="Boolean mobile logo">
+                    <img class="d-none d-xl-inline-block" width="150" src="./assets/img/logo.svg" alt="Boolean mobile logo">
                 </div>
-                <div class="col-lg-10 d-flex">
-                    <form class="d-flex">
-                        <div class="input-group">
-                            <span class="input-group-text  border-0" id="basic-addon1"><i
-                                    class="fa-solid fa-magnifying-glass"></i></span>
-                            <input class="form-control me-2 border-0 search" type="search" placeholder="Prova a cercare:lezioni di Laravel"
-                                aria-label="Search">
-                        </div>
+                <div class="col d-flex">
+                    <div class="input-group">
+                        <span class="input-group-text px-1 border-end-0 search_bg" id="search_icon">
+                          <i class="fa-solid fa-magnifying-glass fa-fw"></i>
+                        </span>
+                        <input type="search" class="form-control border-start-0 search_bg" placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
                     </form>
                 </div>
-                <div class="col-lg-1">
-                    <form class="d-none d-lg-flex ">
+                <div class="col flex-grow-0">
+                    <form class="d-none d-lg-flex">
                         <button class="btn" type="button">
                             <i class="fa-solid fa-list"></i>
                         </button>
@@ -47,12 +48,11 @@
                                 <li><a class="dropdown-item" href="#">Logout</a></li>
                             </ul>
                         </div>
-                    </form>
-                    
+                    </form>                    
                 </div>
             </div>
         </div>
-        
+                    
     </header>
     <main id="app_main">
         <div class="sidebar d-flex justify-content-center">
