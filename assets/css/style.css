@@ -2,7 +2,6 @@
     --bd-banner: #1b72e8;
     --bd-badge-bg: #165bba;
     --bd-bell: #ff8f00;
-    --bd-searchbar-bg: #e5e5e5;
 }
 
 #app_header{
@@ -20,7 +19,8 @@
 
 .sidebar{
     overflow-y: hidden;
-    background-image: url(/assets/img/sidebar-bg.png);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: black;
     background-size: 100%;
 }
 
